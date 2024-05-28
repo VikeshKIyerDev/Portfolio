@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="game.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+        <script src="game.js"></script>
+    </head>
+    <body>
+        <p class="heading">Rock Paper & Scissors Game</p>
+        <div class="buttons">
+            <button class="rock" onclick="
+                choice = 'rock';
+                main();
+            ">Rock</button>
+            <button class="paper" onclick="
+                choice = 'paper';
+                main();
+            ">Paper</button>
+            <button class="scissors" onclick="
+                choice = 'scissors';
+                main();
+            ">Scissors</button>
+        </div>
+        <div class="info">
+            <p class="result">Play the game</p>
+            <p class="inference">once for displaying</p>
+            <p class="score">the results here.</p>
+        </div>
+    </body>
+</html>

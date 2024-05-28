@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="display">
+                <p class="displaytext">0</p>
+            </div>
+            <div class="buttons">
+                <div class="firstrow">
+                    <button onclick='press("AC");' class = "butt topbutt">AC</button>
+                    <button onclick='press("+/-");' class = "butt topbutt">+/-</button>
+                    <button onclick='press("%");' class = "butt topbutt">%</button>
+                    <button onclick='press("÷");' class = "butt symbol">÷</button>
+                </div>
+                <div class="buttongrid">
+                    <button onclick='press("7");' class = "butt">7</button>
+                    <button onclick='press("8");' class = "butt">8</button>
+                    <button onclick='press("9");' class = "butt">9</button>
+                    <button onclick='press("x");' class = "butt symbol">x</button>
+                    <button onclick='press("4");' class = "butt">4</button>
+                    <button onclick='press("5");' class = "butt">5</button>
+                    <button onclick='press("6");' class = "butt">6</button>
+                    <button onclick='press("-");' class = "butt symbol">-</button>
+                    <button onclick='press("1");' class = "butt">1</button>
+                    <button onclick='press("2");' class = "butt">2</button>
+                    <button onclick='press("3");' class = "butt">3</button>
+                    <button onclick='press("+");' class = "butt symbol">+</button>
+                </div>
+                <div class="lastrow">    
+                    <button onclick='press("0");' class = "butt0">0</button>
+                    <button onclick='press(".");' class = "butt">.</button>
+                    <button onclick='calc(document.querySelector(".displaytext").innerHTML);' class = "butt symbol">=</button>
+                </div>
+            </div>
+        </div>
+        <p class="credits">Made with ❤️ by Vikesh K Iyer</p>
+    </body>
+    <script src="script.js"></script>
+</html>

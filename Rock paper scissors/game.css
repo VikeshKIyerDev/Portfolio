@@ -1,0 +1,39 @@
+html {
+    background-color: rgba(0,0,20,0.95);
+    color: white;
+    font-family: Roboto, Arial;
+}
+
+.heading {
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.rock, .paper, .scissors {
+    border: none;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-right: 40px;
+    background-color: rgb(255, 255, 97);
+    color: rgba(31, 34, 44, 0.95);
+    border-radius: 30px;
+    padding: 10px 30px;
+    transition: background-color .25s;
+}
+
+.rock:hover, .paper:hover, .scissors:hover {
+    background-color: rgba(255, 255, 97, 0.8);
+}
+
+.rock:active, .paper:active, .scissors:active {
+    background-color: rgba(255, 255, 97, 0.6);
+}
+
+.buttons, .info {
+    display: flex;
+    justify-content: space-around;
+}
+

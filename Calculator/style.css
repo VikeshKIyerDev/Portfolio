@@ -1,0 +1,85 @@
+.buttons {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    flex: 50px 50px 50px 50px;
+    margin-top: 0;
+}
+body {
+    background-color: rgb(22, 22, 22);
+}
+.butt, .butt0 {
+    width: 70px;
+    height: 70px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 5px 3px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    transition: opacity .15s;
+}
+.butt0 {
+    justify-content:left;
+    width: 150px;
+    padding-left: 30px;
+    text-align: left;
+}
+.lastrow {
+    grid-template-columns: 180px 90px 90px;
+}
+
+.butt:hover, .butt0:hover {
+    opacity: 80%;
+}
+.butt:active, .butt0:active {
+    opacity: 50%;
+}
+
+.symbol {
+    background-color: #FF9F0A;
+}
+.topbutt {
+    color: black;
+    background-color: #A5A5A5;
+}
+.calculator {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 15px 10px 40px 10px;
+    width: 320px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30pt;
+    background-color: black;
+    height: auto;
+}
+.displaytext {
+    color: white;
+    font-family: Helvetica;
+    font-size: 80px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+    width: 320px;
+    height: 92px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    text-align: right;
+}
+.display {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+.credits {
+    text-align: center;
+    color: white;
+    font-family: "Courier New";
+    font-weight: 900;
+    font-size: 25px;
+}
